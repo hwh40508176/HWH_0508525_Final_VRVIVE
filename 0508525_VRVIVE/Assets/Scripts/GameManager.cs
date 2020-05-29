@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Valve.VR.InteractionSystem;
 
 public class GameManager : MonoBehaviour
@@ -8,10 +9,24 @@ public class GameManager : MonoBehaviour
     public Text textBallCount;
     [Header("分數")]
     public Text textScore;
+    [Header("一分音效")]
+    public AudioClip soundone;
+    [Header("三分音效")]
+    public AudioClip soundthree;
 
     int ballCount = 5;
     int score;
 
+    private int ballCount = 5;
+    private int score;
+
+    private ThreePoint threePoint;
+
+    private void Start()
+    {
+        aud = GetComponent<AudioSource>();
+        threePoint = FindObjectOfType<ThreePoint>();
+    }
     public void UseBall(GameObject ball)
     {
         Destroy(ball.GetComponent<Throwable>());
@@ -24,9 +39,25 @@ public class GameManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        score += 2;
+        if(threePoint.inThreePoint)
+        {
+            score += 3;
+            AudioClip.PlayOneShot(soundthree, 1.5f);
+        }
+        { 
+            score += 1;
+            AudioClip.PlayOneShot(soundone, 1.5f);
+        }
         textScore.text = "分數：" + score;
     }
 
+    public void Replay()
+    {
+        Destroy(FindObjectOfType<Player>().gameObject();
+        SceneManager.LoadScene("躲避球");
+    }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
-

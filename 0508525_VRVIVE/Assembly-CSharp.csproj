@@ -58,6 +58,7 @@
      <Compile Include="Assets\ColorSkies\Demo\Scripts\LookCamera.cs" />
      <Compile Include="Assets\ColorSkies\Demo\Scripts\SkyboxChanger.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\ThreePoint.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/maru1/Desktop/HWH_0508525_Finalexam_VRMobile/0508525_VRVIVE/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

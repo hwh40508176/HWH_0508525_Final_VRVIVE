@@ -109,91 +109,91 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11238}
-    - Class: 114
       Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 11288}
+      Script: {instanceID: 11278}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11310}
     - Class: 114
-      Script: {instanceID: 11426}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11446}
+      Script: {instanceID: 11448}
     - Class: 114
-      Script: {instanceID: 11492}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11514}
     - Class: 114
-      Script: {instanceID: 11624}
+      Script: {instanceID: 11572}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11646}
     - Class: 114
-      Script: {instanceID: 11676}
+      Script: {instanceID: 11656}
     - Class: 114
-      Script: {instanceID: 11692}
+      Script: {instanceID: 11698}
     - Class: 114
-      Script: {instanceID: 11760}
+      Script: {instanceID: 11714}
     - Class: 114
-      Script: {instanceID: 11994}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 12066}
+      Script: {instanceID: 12018}
     - Class: 114
-      Script: {instanceID: 12136}
+      Script: {instanceID: 12090}
     - Class: 114
-      Script: {instanceID: 12140}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12328}
+      Script: {instanceID: 12164}
     - Class: 114
-      Script: {instanceID: 12454}
+      Script: {instanceID: 12354}
     - Class: 114
-      Script: {instanceID: 12474}
+      Script: {instanceID: 12480}
     - Class: 114
-      Script: {instanceID: 12510}
+      Script: {instanceID: 12500}
     - Class: 114
-      Script: {instanceID: 12644}
+      Script: {instanceID: 12536}
     - Class: 114
-      Script: {instanceID: 12692}
+      Script: {instanceID: 12672}
     - Class: 114
-      Script: {instanceID: 12824}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 12878}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 12954}
+      Script: {instanceID: 12906}
     - Class: 114
-      Script: {instanceID: 13062}
+      Script: {instanceID: 12984}
     - Class: 114
-      Script: {instanceID: 13118}
+      Script: {instanceID: 13092}
     - Class: 114
-      Script: {instanceID: 13120}
+      Script: {instanceID: 13148}
     - Class: 114
-      Script: {instanceID: 13146}
+      Script: {instanceID: 13150}
     - Class: 114
-      Script: {instanceID: 13228}
+      Script: {instanceID: 13176}
     - Class: 114
-      Script: {instanceID: 13232}
+      Script: {instanceID: 13260}
     - Class: 114
-      Script: {instanceID: 13252}
+      Script: {instanceID: 13264}
     - Class: 114
-      Script: {instanceID: 13280}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13320}
+      Script: {instanceID: 13312}
     - Class: 114
-      Script: {instanceID: 13502}
+      Script: {instanceID: 13352}
     - Class: 114
-      Script: {instanceID: 13520}
+      Script: {instanceID: 13532}
     - Class: 114
-      Script: {instanceID: 13646}
+      Script: {instanceID: 13550}
     - Class: 114
-      Script: {instanceID: 13718}
+      Script: {instanceID: 13678}
     - Class: 114
-      Script: {instanceID: 13950}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 13976}
+      Script: {instanceID: 13982}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 14008}
     - Class: 114
-      Script: {instanceID: 14094}
+      Script: {instanceID: 14098}
+    - Class: 114
+      Script: {instanceID: 14126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1572,4 +1572,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - "Assets/\u8EB2\u907F\u7403.unity"
-  playerPath: C:/Users/maru1/Desktop/HWH_0508525_Finalexam_VRMobile/Final/0508525_VRVIVE.exe
+  playerPath: C:/Users/maru1/Desktop/HWH_0508525_Finalexam_VRMobile/0508525_VRVIVE.exe
