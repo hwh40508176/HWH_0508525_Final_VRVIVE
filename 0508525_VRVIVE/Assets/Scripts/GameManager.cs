@@ -14,11 +14,9 @@ public class GameManager : MonoBehaviour
     [Header("三分音效")]
     public AudioClip soundthree;
 
+    public AudioSource aud;
     int ballCount = 5;
-    int score;
-
-    private int ballCount = 5;
-    private int score;
+    public static int score;
 
     private ThreePoint threePoint;
 
@@ -39,21 +37,23 @@ public class GameManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.tag=="enemy")
         if(threePoint.inThreePoint)
         {
             score += 3;
-            AudioClip.PlayOneShot(soundthree, 1.5f);
+            aud.PlayOneShot(soundthree, 1.5f);
         }
+        else
         { 
             score += 1;
-            AudioClip.PlayOneShot(soundone, 1.5f);
+            aud.PlayOneShot(soundone, 1.5f);
         }
         textScore.text = "分數：" + score;
     }
 
     public void Replay()
     {
-        Destroy(FindObjectOfType<Player>().gameObject();
+        Destroy(FindObjectOfType<Player>().gameObject);
         SceneManager.LoadScene("躲避球");
     }
     public void Quit()
